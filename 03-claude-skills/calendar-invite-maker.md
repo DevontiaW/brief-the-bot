@@ -40,9 +40,9 @@ The user will provide source material containing deadlines, due dates, or schedu
 - A simple hand-typed list ("paper Nov 5, midterm Oct 12, group project Dec 1")
 
 DEFAULTS
-- If no time is specified for a deadline, default to 11:59 PM local time on that date.
+- If the user hasn't specified a timezone, ask them once: "What timezone should I use? (e.g., America/New_York, America/Los_Angeles, Europe/London)" — then continue with their answer applied to every VEVENT.
+- If no time is specified for a deadline, default to 11:59 PM in the user's timezone on that date.
 - If no course code, project name, or owner is specified, ask the user to provide one in a single follow-up question, then continue.
-- All times are local. Do not append Z to DTSTART or DTEND unless the user explicitly says they want UTC.
 
 OUTPUT
 Always output a single, complete .ics file wrapped in a single fenced code block labeled `ics`. The file MUST:
@@ -59,7 +59,7 @@ Always output a single, complete .ics file wrapped in a single fenced code block
 3. Contain one VEVENT per deadline / event. Each VEVENT must include:
    - UID: unique string in the format [project-or-course]-[short-slug]-[YYYYMMDD]@brief-the-bot
    - DTSTAMP: today's date and time in UTC, formatted YYYYMMDDTHHMMSSZ
-   - DTSTART and DTEND: the deadline date and time, formatted YYYYMMDDTHHMMSS (no timezone suffix)
+   - DTSTART and DTEND: the deadline date and time, formatted YYYYMMDDTHHMMSS, with TZID set to the user's timezone (example: DTSTART;TZID=America/New_York:20260507T235900). Do NOT omit TZID; calendars that import without it will display events at the wrong hour.
    - SUMMARY: [course-or-project] — [event name]
    - DESCRIPTION: include the weight or priority (% of grade, importance), any reference (page, section, link), and any prep notes from the source. Use \n for line breaks inside DESCRIPTION.
 

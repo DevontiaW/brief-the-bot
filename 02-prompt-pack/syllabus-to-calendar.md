@@ -23,7 +23,7 @@ ASK
 Extract every graded assignment, exam, project, presentation, paper, and major deadline from the syllabus I uploaded. For each one, generate an iCalendar (ICS) VEVENT entry that I can import into Apple Calendar, Google Calendar, or Outlook.
 
 CONTEXT
-I am a student. The syllabus is the document attached to this message. Treat the due date in the syllabus as the deadline. If a time isn't specified, default to 11:59 PM local time on the due date. Use the course code from the syllabus (example: MKT501) in every event title.
+I am a student. The syllabus is the document attached to this message. My timezone is [INSERT YOUR TIMEZONE — e.g., America/New_York, America/Chicago, America/Los_Angeles, Europe/London]. Treat the due date in the syllabus as the deadline. If a time isn't specified, default to 11:59 PM in my timezone on the due date. Use the course code from the syllabus (example: MKT501) in every event title.
 
 CONSTRAINTS
 1. Output a single, complete .ics file. Start with:
@@ -37,7 +37,7 @@ CONSTRAINTS
 2. One VEVENT per graded item. Each VEVENT must include:
    - UID: unique string in the format [course-code]-[short-slug]-[YYYYMMDD]@brief-the-bot
    - DTSTAMP: today's date and time in UTC, formatted YYYYMMDDTHHMMSSZ
-   - DTSTART and DTEND: the deadline date and time, formatted YYYYMMDDTHHMMSS (no timezone suffix — uses local time)
+   - DTSTART and DTEND: the deadline date and time, formatted YYYYMMDDTHHMMSS, with TZID set to my timezone (example: DTSTART;TZID=America/New_York:20260507T235900)
    - SUMMARY: [course-code] — [assignment name]   (example: MKT501 — Mid-Term Exam)
    - DESCRIPTION: include the assignment's weight (% of grade), any page reference, and any prep notes from the syllabus. Use \n for line breaks inside the DESCRIPTION field.
 
@@ -64,16 +64,16 @@ CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:MKT501-midterm-20260507@brief-the-bot
 DTSTAMP:20260427T180000Z
-DTSTART:20260507T235900
-DTEND:20260507T235900
+DTSTART;TZID=America/New_York:20260507T235900
+DTEND;TZID=America/New_York:20260507T235900
 SUMMARY:MKT501 — Mid-Term Exam
 DESCRIPTION:Worth 25% of grade.\nCovers chapters 1–6.\nIn-class, closed book.
 END:VEVENT
 BEGIN:VEVENT
 UID:MKT501-final-paper-20260615@brief-the-bot
 DTSTAMP:20260427T180000Z
-DTSTART:20260615T235900
-DTEND:20260615T235900
+DTSTART;TZID=America/New_York:20260615T235900
+DTEND;TZID=America/New_York:20260615T235900
 SUMMARY:MKT501 — Final Paper Due
 DESCRIPTION:Worth 30% of grade.\n8–10 pages, APA format.\nSubmit via Canvas.
 END:VEVENT
@@ -103,10 +103,11 @@ Done. Your semester is on your phone.
 
 | Symptom | Fix |
 |---|---|
-| AI says "I can't read PDFs" | Use claude.ai, ChatGPT (paid), or Gemini — they all read PDFs. ChatGPT free tier has limits. If stuck, paste the syllabus text directly instead of uploading the PDF. |
+| AI says "I can't read PDFs" | Claude.ai (free + paid), ChatGPT (free + paid), and Gemini all read PDFs. If a specific account is stuck, paste the syllabus text directly instead of uploading the PDF. |
 | Dates are wrong / made up | Your CONSTRAINTS need teeth. Add a line: *"If a date isn't explicitly written in the syllabus, do not invent one. Add // NEEDS CLARIFICATION instead."* |
-| Apple Cal won't import | Check the file extension is `.ics` (not `.ics.txt`). Right-click in Finder → "Get Info" → rename. |
-| Some events show up at midnight UTC instead of local time | Re-run the prompt and add: *"All times are local; do not append Z to DTSTART or DTEND."* |
+| File saves as `.ics.txt` (Windows) | Windows often hides extensions and adds `.txt` when saving from Notepad. Open File Explorer → View → check "File name extensions" → rename to remove the `.txt`. Or save from VS Code / a real text editor. |
+| Apple Cal won't import | Check the file extension is `.ics` (not `.ics.txt`). On Mac: right-click in Finder → "Get Info" → rename. |
+| Events show at the wrong hour after import | Your TZID didn't make it into the file. Re-run the prompt and double-check that every DTSTART line includes `TZID=YourTimezone` (example: `DTSTART;TZID=America/New_York:...`). Without TZID, calendars guess and usually guess wrong. |
 | Output is a markdown table, not ICS | The AI ignored the format constraint. Add at the top: *"Output ICS only. No tables. No prose. No explanations above the code block."* |
 
 ---

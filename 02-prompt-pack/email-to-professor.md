@@ -69,7 +69,7 @@ Clean. Specific. Adult. Done in 90 seconds.
 ## How To Use It
 
 1. Open Claude / ChatGPT / Gemini.
-2. Paste the prompt. Fill in the four CONTEXT blocks honestly.
+2. Paste the prompt. Fill in the five CONTEXT blocks honestly.
 3. Run.
 4. **Read the draft once before sending.** Does it sound like *you*? If a line sounds stiff, rewrite that line in your own voice — keep the rest.
 5. Send.

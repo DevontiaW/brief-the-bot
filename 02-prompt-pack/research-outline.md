@@ -85,7 +85,7 @@ Then below:
 
 1. **Upload your sources first.** This is the load-bearing step. The outline is only as good as what's loaded.
 2. Open a fresh Project (Claude/ChatGPT) so the sources persist across the conversation.
-3. Paste the prompt. Fill in the four CONTEXT blocks.
+3. Paste the prompt. Fill in the five CONTEXT blocks.
 4. Run.
 5. **Start with the Sourcing Punch List, not the outline.** That tells you where the paper is weak before you fall in love with the structure.
 6. Hunt for the missing sources (Google Scholar, your school library, the syllabus reading list). Upload them and re-run.
