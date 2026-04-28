@@ -2,7 +2,7 @@
 
 Turn any class syllabus into a set of calendar events you can import into Apple Calendar, Google Calendar, or Outlook in 60 seconds.
 
-This is the demo from the talk. It's the cleanest worked example of the three levers in this repo — and the most useful one for student-athletes who are juggling road trips and deadlines.
+This is the cleanest worked example of the three levers in this repo — and probably the most useful one for any student juggling deadlines, travel, and a calendar that already has too much in it.
 
 ---
 
@@ -137,4 +137,4 @@ This is the orchestrator move: you don't just ask, you brief.
 
 ---
 
-> Ship it: import your `.ics` tonight. PR your wins to [`cookbook/`](../cookbook/).
+> Ship it: import your `.ics` and free your brain from due-date tracking. PR your wins to [`cookbook/`](../cookbook/).

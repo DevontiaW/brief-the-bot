@@ -108,4 +108,4 @@ Same three levers. Different content. Same professional, specific, short result.
 
 ---
 
-> Send the email tonight. The "I'll send it tomorrow" email never sends.
+> Send the email today. The "I'll send it tomorrow" email never sends.

@@ -17,23 +17,23 @@ The foundation. Still the best thing written on strategy, period. Why does it be
 ## On AI as a Cognitive Partner
 
 ### *"The Extended Mind"* — Andy Clark & David Chalmers (1998)
-The 30-year-old paper that quietly predicted the AI era. Clark and Chalmers argue that a tool becomes part of your mind when it meets three criteria: **Reliability, Trustworthiness, Accessibility.** That's the *Trust and Glue* framework. The whole talk threads through this paper. The original is short (~15 pages) and surprisingly readable. Free PDF easy to find.
+The 30-year-old paper that quietly predicted the AI era. Clark and Chalmers argue that a tool becomes part of your mind when it meets three criteria: **Reliability, Trustworthiness, Accessibility.** That's the *Trust and Glue* framework. The whole repo threads through this paper. The original is short (~15 pages) and surprisingly readable. Free PDF easy to find.
 
 ### *God and Golem, Inc.* — Norbert Wiener (1964)
-The book where Wiener — the inventor of cybernetics — saw all of this coming. The line that lives in slide 7 and slide 10: *"complete subservience and complete intelligence do not go together."* Translation: a system smart enough to do your work for you will start interpreting your goals in ways you didn't expect. You need the discipline to keep the kill switch. Short, dense, and 60 years ahead of its time.
+The book where Wiener — the inventor of cybernetics — saw all of this coming. The famous line: *"complete subservience and complete intelligence do not go together."* Translation: a system smart enough to do your work for you will start interpreting your goals in ways you didn't expect. You need the discipline to keep the kill switch. Short, dense, and 60 years ahead of its time.
 
-### Erik Schluntz — *"Vibe Coding in Production"* (talk, 2026)
-Schluntz is an Anthropic engineer who builds AI systems for a living. His core line: *"Ask not what Claude can do for you — ask what guidance or context a new employee on your team would need to succeed."* That's the team-lead framing this whole repo runs on. Worth the 40 minutes. Find it on YouTube — search "Schluntz vibe coding."
+### Erik Schluntz — *"Vibe Coding in Production"* (talk)
+Schluntz is an Anthropic engineer who builds AI systems for a living. His core framing: ask what guidance or context a new employee on your team would need to succeed at the task — that's how you should brief AI. That's the team-lead muscle this whole repo runs on. Worth the 40 minutes. Find it on YouTube — search "Schluntz vibe coding."
 
 ---
 
 ## On Cognition and the Fluency Trap
 
 ### *Thinking, Fast and Slow* — Daniel Kahneman (2011)
-The reason fluent AI text feels true even when it's not. Kahneman's System 1 (fast, automatic, easily fooled by surface fluency) versus System 2 (slow, deliberate, exhausting). The Fluency Trap on slide 7 is System 1 betraying you in real time. Read at minimum the first six chapters.
+The reason fluent AI text feels true even when it's not. Kahneman's System 1 (fast, automatic, easily fooled by surface fluency) versus System 2 (slow, deliberate, exhausting). The Fluency Trap is System 1 betraying you in real time. Read at minimum the first six chapters.
 
-### Nataliya Kosmyna et al. — MIT Media Lab EEG Study on AI use (2025)
-The study that gives the talk its empirical teeth. Subjects writing essays with AI assistance showed measurably less neural engagement than subjects writing without. Cited in the Q&A back-pocket arsenal. Search "Kosmyna AI EEG essay" on Google Scholar. Pre-print is free.
+### Nataliya Kosmyna et al. — MIT Media Lab EEG Study on AI use (pre-print, 2025)
+A small-N pre-print study tracking neural engagement during AI-assisted vs. unassisted essay writing. Worth reading critically — the framing of "AI use reduces cognitive effort" is intuitive but the underlying data is preliminary. Search "Kosmyna AI EEG essay" on Google Scholar. Treat the directional finding as suggestive, not settled.
 
 ---
 
@@ -52,7 +52,7 @@ What Skills are, how to build them, how to install. The two Skills shipped in [`
 ## On Building (For the Curious Builders)
 
 ### *The Mom Test* — Rob Fitzpatrick
-How to talk to people about an idea without lying to yourself about whether they actually want it. If you're building "your first thing" from the talk's Slide 12 challenge #3, read this before the third week. Short, brutal, life-changing for first-time builders.
+How to talk to people about an idea without lying to yourself about whether they actually want it. If you're building your first thing, read this before week three. Short, brutal, life-changing for first-time builders.
 
 ### *The Lean Startup* — Eric Ries
 The book that named MVP, build-measure-learn, and pivot. Sometimes mocked because it became corporate cliché — but the underlying discipline is solid. Read it once, internalize the loop, ignore everything that's been written about it since.
@@ -77,7 +77,7 @@ Hard data on where AI is actually creating value across industries. Updated annu
 
 You don't need to read all of this. Pick your path:
 
-- **You want to be a better student tonight:** Forte (BASB) + Anthropic prompting docs. Two weeks.
+- **You want to be a better student this week:** Forte (BASB) + Anthropic prompting docs. Two weeks.
 - **You want to understand WHY this works (the philosophical foundation):** Clark & Chalmers + Wiener + Kahneman. One semester.
 - **You want to build a real product:** Forte + The Mom Test + Lean Startup. One summer.
 - **You want a job in AI strategy:** Porter + Rumelt + McKinsey AI Survey + Anthropic docs. One internship cycle.

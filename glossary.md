@@ -1,6 +1,6 @@
 # Glossary
 
-The terms from the talk that you'll hear again, plus what they actually mean.
+The terms used across this repo, plus what they actually mean.
 
 ---
 
@@ -8,7 +8,7 @@ The terms from the talk that you'll hear again, plus what they actually mean.
 
 The highest level of AI fluency. Not a user. Not an operator. A team lead who directs multiple AI agents — each with a specialty — toward a deliverable. The orchestrator sets the brief, loads the context, defines the constraints, and verifies the work. The tools don't play until the orchestrator points at them.
 
-**Why it matters:** "Orchestrator" is the role tonight's talk argues every AI-fluent student should grow into. It's also a real and emerging job description. People at Anthropic, Deloitte, and a hundred other firms are doing this work full-time today.
+**Why it matters:** "Orchestrator" is the role this repo argues every AI-fluent student should grow into. It's also a real and emerging job description. People at Anthropic, Deloitte, and a hundred other firms are doing this work full-time today.
 
 ---
 
@@ -22,7 +22,7 @@ ASK, CONTEXT, CONSTRAINTS. The minimum-viable framework for prompting. Every oth
 
 A philosophical framework for when a tool stops being a tool and becomes part of your thinking. Three criteria: **Reliability** (it's there when you need it), **Trustworthiness** (you endorse its output the way you endorse your own memory), **Accessibility** (you can reach it easily).
 
-**Why it matters:** This was written for *passive* tools — notebooks, address books, smartphones. The talk argues it's incomplete for *active* AI, which led to the fourth pillar.
+**Why it matters:** This was written for *passive* tools — notebooks, address books, smartphones. This repo argues it's incomplete for *active* AI, which led to the fourth pillar.
 
 ---
 
@@ -56,7 +56,7 @@ A mindset for AI conversations. A yes-man agrees with you and gives you what you
 
 ### CRAFT
 
-A prompting acronym you'll see online: Context, Role, Action, Format, Tone. Same three muscles as ASK / CONTEXT / CONSTRAINTS, just sliced differently. Don't memorize. The talk uses CRAFT as one example among many — RACE, CO-STAR, OCTAVE, BANANA — to make the point that the *acronym* doesn't matter; the *discipline* does.
+A prompting acronym you'll see online: Context, Role, Action, Format, Tone. Same three muscles as ASK / CONTEXT / CONSTRAINTS, just sliced differently. Don't memorize. CRAFT is one example among many — RACE, CO-STAR, OCTAVE, BANANA — and the point is that the *acronym* doesn't matter; the *discipline* does.
 
 ---
 
@@ -70,7 +70,7 @@ A claude.ai feature that bundles a reusable prompt + instructions + sometimes ex
 
 ### Prompter → Copilot → Agent → Orchestrator
 
-The four-stage progression of AI fluency the talk uses to map where you are.
+The four-stage progression of AI fluency this repo uses to map where you are.
 
 - **Prompter** — copy, paste, pray. Reactive. Most people start here.
 - **Copilot** — you've learned some tricks. Specific asks. Better outputs. The middle of the spectrum.
@@ -83,7 +83,7 @@ The journey is asymmetric: most people stall at Copilot. The jump to Orchestrato
 
 ### Extracted Mind vs. Extended Mind
 
-Two paths the talk describes.
+Two paths the discipline describes.
 
 - **Extracted Mind** — AI does the thinking *for* you. You skip the structure. Skill erodes. Judgment fades. The "Google Maps into the lake" failure mode.
 - **Extended Mind** — AI thinks *with* you. You bring the structure, AI amplifies your reasoning. You remain the expert.

@@ -10,7 +10,7 @@ The prompt pack in `02-prompt-pack/` is the starter set. The cookbook is the *ex
 
 If you've taken a prompt from this repo, modified it for a specific class, and made it work — submit it here. Future students will use what you built.
 
-This is also the only way the repo stays alive after the talk. **Two semesters from now, the most useful prompts in here will be the ones you contributed, not the ones I started with.**
+This is also the only way the repo stays alive long-term. **Two semesters from now, the most useful prompts in here will be the ones you contributed, not the ones the starter pack shipped with.**
 
 ---
 
@@ -101,4 +101,4 @@ For sensitive questions (academic integrity, "is this prompt OK to publish"), DM
 
 ---
 
-> The starter pack is mine. The cookbook belongs to the room.
+> The starter pack is mine. The cookbook belongs to the next student.

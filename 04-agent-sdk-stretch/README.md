@@ -17,9 +17,9 @@ For the curious builders. The next layer down: the same syllabus-to-calendar wor
 
 Two reasons:
 
-1. **Most students at the talk don't have an Anthropic API key.** The agent is a "look what's possible" artifact, not a "use this tonight" artifact. Shipping it on Day 1 of the talk would have crowded out things you can actually use this weekend.
+1. **Most students reading this repo don't have an Anthropic API key** — and that's fine. The agent is a "look what's possible" artifact, not a "use this tonight" artifact. Shipping it on Day 1 of this repo would have crowded out things you can actually use this weekend.
 
-2. **The talk's job was discipline. The SDK is the next layer.** This repo's primary job is to teach the workflow. The SDK is for the 2–3 students who walk out of the talk and want to *build* the agent themselves. That's a different conversation.
+2. **The repo's job is discipline. The SDK is the next layer.** This pack's primary job is to teach the workflow. The SDK is for the small subset of readers who want to *build* the agent themselves rather than run it manually in Claude. That's a different conversation.
 
 ---
 
@@ -35,7 +35,7 @@ If you can't wait, here's the path to build it yourself:
 4. Add tool definitions for `read_pdf(path)` and `write_ics(content, path)`.
 5. Run the loop.
 
-You'll have a working agent in an afternoon. If you build it before May, **ship it to the [cookbook](../cookbook/)** as a Skill recipe + Python script, and I'll ship your version instead of mine.
+You'll have a working agent in an afternoon. If you build it before May, **ship it to the [cookbook](../cookbook/)** as a Skill recipe + Python script, and the canonical version will reflect your work.
 
 ---
 

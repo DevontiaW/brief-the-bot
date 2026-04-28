@@ -3,9 +3,11 @@
 
 Most people open ChatGPT and start typing. That's where the trouble starts.
 
-This is the repo from the talk *"Stop Prompting. Start Orchestrating."* — built for students who don't have time to read a 200-page book on prompt engineering, but who do have a paper due Sunday and a flight Friday morning. It's the same workflow I use as a Deloitte consultant and an MBA student. The only difference is now it fits on your phone.
+This is an open-source workflow pack for students who don't have time to read a 200-page book on prompt engineering, but who do have a paper due Sunday and a flight Friday morning. It's the same workflow used by working consultants and grad students. The only difference is now it fits on your phone.
 
 **The whole bet of this repo:** your prompt isn't the lever. Your *workflow* is. Get the workflow right and a free AI account will out-perform a $200/month plan run badly.
+
+Everything here is free. Everything is forkable. Everything is yours.
 
 ---
 
@@ -14,7 +16,7 @@ This is the repo from the talk *"Stop Prompting. Start Orchestrating."* — buil
 | If you have… | Start with |
 |---|---|
 | **10 minutes** | [The Levers](./01-the-levers/) → [Syllabus → Calendar](./02-prompt-pack/syllabus-to-calendar.md). One prompt, your week is on your phone. |
-| **1 hour** | All of the above + [the rest of the prompt pack](./02-prompt-pack/) (study plan, practice quiz, résumé tailor, email-to-professor, research outline). |
+| **1 hour** | All of the above + [the rest of the prompt pack](./02-prompt-pack/) (study plan, practice quiz, résumé tailor, email-to-professor, research outline, meeting recap). |
 | **1 weekend** | All of the above + [install both Skill recipes](./03-claude-skills/) and submit your first prompt to the [cookbook](./cookbook/). |
 
 If you're the kind of person who reads every footnote — start with the [reading list](./reading-list.md). It's where the discipline came from.
@@ -43,12 +45,13 @@ That's it. Every "framework" you've seen is repackaging these three. Run the lev
 brief-the-bot/
 ├── 01-the-levers/              ← The framework, with worked examples
 ├── 02-prompt-pack/             ← Copy-paste prompts for real student work
-│   ├── syllabus-to-calendar.md   ← Live demo from the talk
-│   ├── study-plan.md
-│   ├── practice-quiz.md
-│   ├── resume-tailor.md
-│   ├── email-to-professor.md
-│   └── research-outline.md
+│   ├── syllabus-to-calendar.md   ← Turn any syllabus into calendar invites
+│   ├── study-plan.md             ← Week-by-week plan, capped at YOUR hours
+│   ├── practice-quiz.md          ← Self-test with answer key + most-missed flag
+│   ├── resume-tailor.md          ← Tailored résumé + ranked gap analysis
+│   ├── email-to-professor.md     ← Specific, professional, sounds like you
+│   ├── research-outline.md       ← Source-grounded outline, no hallucinations
+│   └── meeting-recap.md          ← Action items + decisions from any transcript
 ├── 03-claude-skills/           ← Installable Skill recipes for claude.ai
 ├── 04-agent-sdk-stretch/       ← For the curious builders (drops May 2026)
 ├── cookbook/                   ← Your wins. PR your best prompt.
@@ -80,9 +83,15 @@ This repo is the entry point. If it clicks, here's where to go next:
 
 ## A Note on the Tools
 
-The prompts in this repo work in Claude, ChatGPT, and Gemini. I built and tested them in Claude because that's where I work day-to-day. The discipline is portable; the tool is not the point.
+The prompts in this repo work in Claude, ChatGPT, and Gemini. They were built and tested in Claude. The discipline is portable; the tool is not the point.
 
 If a prompt doesn't work for you on the first try, that's the discipline working. Sharpen the ASK. Add the CONTEXT. Tighten the CONSTRAINTS. Run it again.
+
+---
+
+## Contributing
+
+This repo gets stronger every time a student shares a prompt that worked for them. See the [cookbook](./cookbook/) for how to PR your own. The starter pack is mine. The cookbook belongs to the next student.
 
 ---
 
