@@ -2,7 +2,7 @@
 
 A "Skill" in claude.ai is a reusable, named prompt with system instructions baked in. Once installed, you invoke it like a command — no re-typing the prompt every time.
 
-This folder contains two **Skill recipes** — markdown files with the exact text you paste into claude.ai's Skill creator. They install in about 60 seconds each.
+This folder contains three **Skill recipes** — markdown files with the exact text you paste into claude.ai's Skill creator. They install in about 60 seconds each.
 
 ---
 
@@ -39,8 +39,9 @@ The Skill now appears in your Skills list. To use it: open a chat, attach the Sk
 |---|---|
 | [`study-guide-builder.md`](./study-guide-builder.md) | Turn any chapter, lecture, or reading into a structured study guide with summary, key concepts, applications, common traps, and self-check questions. |
 | [`calendar-invite-maker.md`](./calendar-invite-maker.md) | Turn any list of deadlines into a clean .ics calendar file you can import into Apple Cal, Google Cal, or Outlook. |
+| [`voice-match.md`](./voice-match.md) | Draft in a clean, human voice every time. Your anti-AI writing rules, installed once and applied to everything. |
 
-Both recipes pull all three levers of the discipline. Read them like prompts — they are.
+All three recipes pull the levers of the discipline. Read them like prompts — they are.
 
 ---
 
