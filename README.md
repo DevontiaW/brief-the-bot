@@ -52,7 +52,8 @@ brief-the-bot/
 │   ├── email-to-professor.md     ← Specific, professional, sounds like you
 │   ├── research-outline.md       ← Source-grounded outline, no hallucinations
 │   ├── meeting-recap.md          ← Action items + decisions from any transcript
-│   └── write-like-yourself.md    ← First draft in a human voice, not AI mush
+│   ├── write-like-yourself.md    ← First draft in a human voice, not AI mush
+│   └── tutor-me.md               ← Socratic tutor that won't let you fake it
 ├── 03-claude-skills/           ← Installable Skill recipes for claude.ai
 ├── 04-agent-sdk-stretch/       ← For the curious builders (drops May 2026)
 ├── cookbook/                   ← Your wins. PR your best prompt.
